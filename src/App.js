@@ -59,7 +59,8 @@ function App() {
       <form onSubmit={(e) => {
         e.preventDefault();
         findInDictionary();}}>
-        <input value={searchWord}
+        <input type="text"
+        value={searchWord}
         onChange={(e) => setSearchWord(e.target.value)}
         placeholder="Search for a word..."/>
         <button type="submit">Submit</button>
