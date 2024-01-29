@@ -44,7 +44,7 @@ function App() {
     setWordMeaning((prevWordMeaning) => {
       // If the previous meaning is empty, set the "not found" message
       if (prevWordMeaning === '') {
-        return 'Word not found in the dictionary';
+        return 'Word not found in the dictionary.';
       }
       // If the previous meaning is not empty, it means a match was found in a previous search
       // In this case, do not update the meaning to avoid clearing a valid result
